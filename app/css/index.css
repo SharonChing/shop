@@ -193,20 +193,47 @@ header h3{
 	display: block;
 	padding-bottom: 0.5rem;
 }
+.special a:last-child{
+  padding-bottom: 0;
+}
+.panel{
+  box-shadow: none;
+  border: none;
+  background-color: #f3f3f3;
+}
 .panel-title{
-	text-align: center;
+  padding-left: 50%;
+  margin-left: -9rem;
 }
 .panel-title h4{
-	font-size: 1.6rem;
-    font-weight: 100;
-    color: #494949;
+  display: flex;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 100;
+  color: #494949;
+  align-items: center;
+  padding: 1rem 0;
+}
+.panel-title h4::before,.panel-title h4::after{
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 0;
+  border-bottom: 1px solid #cacaca;
+  margin: 0 0.5rem;
 }
 .panel-body{
+  background-color: #fff;
 	padding:0;
 }
+.panel-body a{
+  display: block;
+}
 .panel-text{
-	padding: 1rem;
-    font-size: 1.6rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  font-size: 1.6rem;
+  border-right: 1px solid #f3f3f3;
 }
 .panel-text p{
 	color: #181818;
@@ -218,5 +245,29 @@ header h3{
 	color: #878787;
 	font-weight: 200;
 }
+<<<<<<< 4e855beffe079727c2729b7b1db3fa5a2a5beec3
 Contact GitHub API Training Shop Blog About
 © 2016 GitHub, Inc. Terms Privacy Security Status Help
+=======
+.panel-body>section{
+  display: flex;
+}
+.panel-icon{
+  display: flex;
+  align-items: center;
+}
+.panel-icon a{
+  width: 3rem;
+
+}
+.panel-icon a.icon-shopping-car{
+  height: 2.4rem;
+  background: url(./../images/icons.png) no-repeat 0 -12.6rem;
+  background-size: 6rem;
+}
+.panel-icon a.icon-store-up{
+  height: 2rem;
+  background: url(./../images/icons.png) no-repeat 0 -10.6rem;
+  background-size: 6rem;
+}
+>>>>>>> [jingxiaofang]: add some codes
