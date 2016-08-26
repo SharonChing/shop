@@ -14,7 +14,7 @@ gulp.task('iconfont', function() {
 			centerHorizontally: true
 		}))
 		.on('codepoints', function(codepoints, options) {
-
+			console.log("runing");
 			var options = {
 				glyphs: codepoints,
 				fontName: config.fontName,
@@ -24,7 +24,7 @@ gulp.task('iconfont', function() {
 
 			gulp.src(config.cssTemplate)
 				.pipe(consolidate('lodash', options))
-				.pipe(gulp.dest(global.src + '/styles/common/'));
+				.pipe(gulp.dest(global.src + '/css/'));
 
 		})
 		.pipe(gulp.dest(config.dest));

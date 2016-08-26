@@ -4,7 +4,7 @@ global.dest = './dest';
 module.exports = {
 	iconfont : {
 		fontName : 'iconfont',
-		cssTemplate : global.src + '/icons/template/index.scss',
+		cssTemplate : global.src + '/icons/**/*.scss',
 		src : global.src + '/icons/*.svg',
 		dest : global.dest + '/fonts'
 	},
