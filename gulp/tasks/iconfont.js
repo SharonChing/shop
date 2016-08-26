@@ -14,17 +14,17 @@ gulp.task('iconfont', function() {
 			centerHorizontally: true
 		}))
 		.on('codepoints', function(codepoints, options) {
-			console.log("runing");
+			console.log(options);
 			var options = {
 				glyphs: codepoints,
 				fontName: config.fontName,
-				fontPath: '../fonts/',
+				fontPath: './../../fonts/',
 				className: 'g-icon'
 			};
 
 			gulp.src(config.cssTemplate)
 				.pipe(consolidate('lodash', options))
-				.pipe(gulp.dest(global.src + '/css/'));
+				.pipe(gulp.dest(global.src + '/css'));
 
 		})
 		.pipe(gulp.dest(config.dest));

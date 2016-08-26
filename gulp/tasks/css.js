@@ -9,11 +9,11 @@ var size = require('gulp-size');
 gulp.task("css", function () {
   return gulp.src(config.src)
   			.pipe(plumber({errorHandler: errorHandler}))
-        .pipe(autoprefixer({
-	  			//browsers: ['Android 2.3','iOS 6'],
-	  			browsers: ["> 0%"],
-	  			cascade: false
-  			}))
+     //    .pipe(autoprefixer({
+	  		// 	//browsers: ['Android 2.3','iOS 6'],
+	  		// 	browsers: ["> 0%"],
+	  		// 	cascade: false
+  			// }))
   			.pipe(size())
   			.pipe(gulp.dest(config.dest));
 });
