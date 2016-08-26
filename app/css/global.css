@@ -22,3 +22,6 @@ h3{
 dl{
 	margin-bottom: 0;
 }
+a:hover{
+	text-decoration: none;
+}
