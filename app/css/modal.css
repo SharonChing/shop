@@ -86,10 +86,14 @@
 .btn-wrap{
   display: flex;
 }
-.btn-wrap .btn{
+.modal-body>.btn-wrap .btn{
   flex: 1;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0;
+}
+.modal-body>.btn-wrap .btn:last-child{
+  margin-right: 0;
 }
 .bg-white{
 	background: #fff;
+  border-radius: 4px;
 }
