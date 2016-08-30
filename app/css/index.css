@@ -29,11 +29,11 @@
     margin-bottom: 0;
 }
 .carousel-coupon li{
-	flex: 1;
+	  flex: 1;
     padding: 0 1rem;
 }
 .carousel-coupon li a{
-	display: block;
+	  display: block;
 }
 .message{
     display: flex;
@@ -220,7 +220,7 @@
 }
 .panel-text{
   flex: 1;
-  padding: 0.5rem 1rem;
+  margin: 0.5rem 1rem;
   font-size: 1.6rem;
   border-right: 1px solid #f3f3f3;
 }

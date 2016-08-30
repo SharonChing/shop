@@ -6,7 +6,6 @@
     padding: 1rem;
 }
 .panel-body ul{
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
