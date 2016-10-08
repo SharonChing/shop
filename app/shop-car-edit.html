@@ -1,0 +1,126 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Flat, Clean, Responsive, admin template built with bootstrap 3">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+
+    <title>购物车编辑</title>
+
+    <link rel="stylesheet" href="./js/vendor/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/global.css">
+    <link rel="stylesheet" type="text/css" href="./css/template/iconfont.css" charset="utf-8">
+
+    <script src="./js/vendor/jquery/dist/jquery.js"></script>
+</head>
+
+<body class="shop-car">
+    <header>
+        <a href="#">
+            <img src="./images/g-icon-left_03.png"/>
+            返回
+        </a>
+        <h3>商城首页</h3>
+    </header>
+    <nav>
+        <ul>
+           <li>
+              <a href="#">
+                  <i><img src="./images/personal_34.png"/></i>
+                  首页
+              </a>
+           </li>
+           <li>
+              <a href="#">
+                  <i><img src="./images/personal_38.png"/></i>
+                  分类
+              </a>
+           </li>
+           <li>
+              <a href="#">
+                  <i><img src="./images/personal_37.png"/></i>
+                  活动专区
+              </a>
+           </li>
+           <li>
+              <a href="#" class="selected">
+                  <i><img src="./images/shap-car_03.png"/></i>
+                  购物车
+              </a>
+           </li>
+           <li>
+              <a href="#">
+                  <i><img src="./images/personal_42-1.png"/></i>
+                  个人中心
+              </a>
+           </li>
+        </ul>
+    </nav>
+    <section class="main-content">
+        <section class="panel">
+            <div class="panel-header no-border">
+                <div class="checkbox">
+                    <input class="J_CheckBoxShop" id="J_SelectAllCbx1" type="checkbox" name="select-all" value="true">
+                    <label for="J_SelectAllCbx1">勾选购物车内所有商品</label>
+                    特产商城
+                </div>
+                <a href="#">编辑</a>
+            </div>
+            <div class="panel-body no-padding">
+                <section class="panel-main panel-body">
+                    <div class="checkbox selected">
+                        <input class="J_CheckBoxShop" id="J_SelectAllCbx1" type="checkbox" name="select-all" value="true">
+                        <label for="J_SelectAllCbx1">勾选商品</label>
+                    </div>
+                    <a href="#">
+                        <img src="./images/pc_23.jpg"/>
+                    </a>
+                    <section>
+                        <div class="number">
+                            <button class="btn btn-default">-</button>
+                            <input type="text" value="1">
+                            <button class="btn btn-default">+</button>
+                        </div>
+                        <p class="panel-price">
+                            <span>¥79</span>
+                        </p>
+                    </section>
+                </section>
+                <section class="panel-main panel-body">
+                    <div class="checkbox selected">
+                        <input class="J_CheckBoxShop" id="J_SelectAllCbx1" type="checkbox" name="select-all" value="true">
+                        <label for="J_SelectAllCbx1">勾选商品</label>
+                    </div>
+                    <a href="#">
+                        <img src="./images/pc_23.jpg"/>
+                    </a>
+                    <section>
+                        <div class="number">
+                            <button class="btn btn-default">-</button>
+                            <input type="text" value="1">
+                            <button class="btn btn-default">+</button>
+                        </div>
+                        <p class="panel-price">
+                            <span>¥79</span>
+                        </p>
+                    </section>
+                </section>
+            </div>
+        </section>
+    </section>
+    <section class="main-footer bg-white">
+        <div class="checkbox">
+            <input class="J_CheckBoxShop" id="J_SelectAllCbx1" type="checkbox" name="select-all" value="true">
+            <label for="J_SelectAllCbx1">勾选购物车内所有商品</label>
+            全选
+        </div>
+        <button class="btn btn-danger btn-lg" type="button" name="button">删除</button>
+    </section>
+
+    <script src="./js/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

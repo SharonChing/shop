@@ -13,42 +13,38 @@
     <link rel="stylesheet" href="./js/vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/global.css">
     <link rel="stylesheet" type="text/css" href="./css/template/iconfont.css" charset="utf-8">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/modal.css"> -->
-    <link rel="stylesheet" type="text/css" href="./css/detail.css">
     <link rel="stylesheet" href="./js/vendor/font-awesome/css/font-awesome.css" media="screen" title="no title" charset="utf-8">
 
     <script src="./js/vendor/jquery/dist/jquery.js"></script>
 </head>
 
-<body>
+<body class="detail">
     <header>
         <a href="#">
-            <i class="g-icon-left"></i>
+            <img src="./images/g-icon-left_03.png"/>
             返回
         </a>
-        <h3>商品详情</h3>
+        <h3>商城首页</h3>
     </header>
     <section class="main-content">
-        <section class="panel">
-            <div class="panel-title">
-                <img src="./images/detail_01.jpg" />
-            </div>
+        <section class="panel no-margin">
+            <img class="border-box" src="./images/detail_01.jpg" />
             <div class="panel-body">
-                <p>
+                <p class="border-box">
                     <a href="#" class="panel-text">德国爱他美奶粉aptamil｜3段（10-12个月）1200g</a>
                     <a href="#" class="panel-icon"><i class="fa fa-heart-o"></i></a>
                 </p>
-                <span>¥289.00</span>
+                <span class="price">¥289.00</span>
                 <small>原价<span>¥348.00</span></small>
             </div>
 
         </section>
-        <section class="panel">
+        <section class="panel bg-white">
             <div class="input-box">
                 <label>配送至:</label>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">四川
-                        <span class="caret"></span>
+                        <span class="fa fa-angle-down"></span>
                     </button>
                     <ul class="dropdown-menu">
                         <li>
@@ -67,7 +63,7 @@
                 </div>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">成都
-                        <span class="caret"></span>
+                        <span class="fa fa-angle-down"></span>
                     </button>
                     <ul class="dropdown-menu">
                         <li>
@@ -86,7 +82,7 @@
                 </div>
                 <div class="btn-group">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">龙泉驿区
-                        <span class="caret"></span>
+                        <span class="fa fa-angle-down"></span>
                     </button>
                     <ul class="dropdown-menu">
                         <li>
@@ -118,7 +114,7 @@
             <h4>继续上啦，查看图文详情</h4>
         </section>
         <section class="panel">
-                <ul class="panel-title">
+                <ul class="panel-header header-nav no-padding">
                     <li class="selected">
                         <a href="#">图文详情</a>
                     </li>
@@ -134,8 +130,11 @@
         </section>
         <section class="panel comment">
             <div class="panel-header">
-                评价<span>好评96.3%</span>
-                <small>共5998条评价</small>
+                评价<span class="status">好评96.3%</span>
+                <a href="#" class="flex-box">
+                    <small class="pull-right color-gray">共5998条评价</small>
+                    <i class="fa fa-angle-right"></i>
+                </a>
             </div>
             <ul class="panel-body">
                 <li class="btn-danger">
@@ -168,7 +167,7 @@
                 <p>
                     特价买到，很优惠，我是回头客，当然觉得这个品牌很好穿。
                 </p>
-                <div class="time-box">
+                <div class="time-box no-padding">
                     <time>2015.08.07</time>
                     <span>500ml</span>
                     <a href="#">回复</a>
@@ -188,19 +187,19 @@
                 <p>
                     特价买到，很优惠，我是回头客，当然觉得这个品牌很好穿。
                 </p>
-                <div class="time-box">
+                <div class="time-box no-padding">
                     <time>2015.08.07</time>
                     <span>500ml</span>
                     <a href="#">回复</a>
                 </div>
             </div>
         </section>
-        <div class="btn-wrap">
-            <button class="icon-shopping-car" data-toggle="modal" data-target="#myModal">
-              <i class="fa fa-shopping-cart"></i>
+        <div class="btn-wrap flex-box no-padding btn-bottom">
+            <button class="icon-shopping-car icons-car" data-toggle="modal" data-target="#myModal">
+              <img src="./images/shop-car_03.png"/>
               购物车</button>
-            <button class="btn btn-danger">加入购物车</button>
-            <button class="btn btn-warning">立即购买</button>
+            <button class="btn btn-danger btn-lg">加入购物车</button>
+            <button class="btn btn-warning btn-lg">立即购买</button>
         </div>
     </div>
 <!-- 点击购物车图标弹出框 -->

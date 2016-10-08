@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" href="./js/vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="stylesheet" type="text/css" href="./css/template/iconfont.css" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/modal.css">
 
@@ -21,7 +20,7 @@
 <body>
     <header>
         <a href="#">
-            <i class="g-icon-left"></i>
+            <img src="./images/g-icon-left_03.png"/>
             返回
         </a>
         <h3>商城首页</h3>
@@ -29,27 +28,37 @@
     <nav>
         <ul>
            <li class="selected">
+
               <a href="#">
+                 <img src="./images/index_02.png">
                   首页
               </a>
            </li>
            <li>
+
               <a href="#">
+                 <img src="./images/index_10.png">
                   分类
               </a>
            </li>
            <li>
+
               <a href="#">
+                 <img src="./images/index_15.png">
                   活动专区
               </a>
            </li>
            <li>
+
               <a href="#">
+                 <img src="./images/index_22.png">
                   购物车
               </a>
            </li>
            <li>
+
               <a href="#">
+                 <img src="./images/index_28.png">
                   个人中心
               </a>
            </li>
@@ -93,7 +102,7 @@
              </ul>
         </section>
         <section class="message">
-            <i class="message-icon"></i>
+            <img src="./images/index_05.png" class="message-icon">
             <a href="#" class="message-text">消息：今日清空郎朗，艳阳高照，出门请记得防晒，小心晒得黢黑</a>
         </section>
         <section class="search">
@@ -102,7 +111,7 @@
         <section class="commodity">
             <a href="#" class="speciality">
                 <dl>
-                    <dt>特色食品</dt>
+                    <dt><img src="./images/index_13.png" />特色食品</dt>
                     <dd>来自各地美食汇集</dd>
                 </dl>
                 <img src="./images/pc_04.jpg">
@@ -110,7 +119,7 @@
             <section>
                 <a href="#" class="gift">
                     <dl>
-                        <dt>伴手礼</dt>
+                        <dt><img src="./images/index_17.png"/>伴手礼</dt>
                         <dd>来自各地美食汇集</dd>
                     </dl>
                     <img src="./images/pc_03.png">
@@ -118,14 +127,14 @@
                 <div>
                     <a href="#" class="fruits">
                         <dl>
-                            <dt>水果特产</dt>
+                            <dt><img src="./images/index_19.png"/>水果特产</dt>
                             <dd>纯天然绿色</dd>
                         </dl>
                         <img src="./images/pc_08.png">
                     </a>
                     <a href="#" class="taste">
                         <dl>
-                            <dt>原生原味</dt>
+                            <dt><img src="./images/index_24.png"/>原生原味</dt>
                             <dd>还是原来的味道</dd>
                         </dl>
                         <img src="./images/pc_10.png">
@@ -145,35 +154,43 @@
             <div class="panel-title">
                 <h4>特色食品</h4>
             </div>
-            <div class="panel-body">
+            <div class="panel-body no-padding">
                 <a href="">
                     <img src="./images/pc_18.png">
                 </a>
-                <section>
-                    <div class="panel-text">
+                <section class="flex-box">
+                    <div class="panel-text panel-text-box">
                         <p>稻香村月饼礼盒中秋月饼礼盒700g</p>
                         <span>¥79</span>
                         <del>¥129</del>
                     </div>
                     <div class="panel-price">
-                        <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
-                        <a href="#" class="icon-store-up"></a>
+                      <a class="icons-car" href="#" data-toggle="modal" data-target="#myModal">
+                          <img src="./images/index_34.png"/>
+                      </a>
+                      <a class="icons-heart" href="#" data-toggle="modal" data-target="#myModal">
+                          <img src="./images/index_30.png"/>
+                      </a>
                     </div>
                 </section>
             </div>
-            <div class="panel-body">
+            <div class="panel-body no-padding">
                 <a href="">
                     <img src="./images/pc_18.png">
                 </a>
-                <section>
-                    <div class="panel-text">
+                <section class="flex-box">
+                    <div class="panel-text panel-text-box">
                         <p>稻香村月饼礼盒中秋月饼礼盒700g</p>
                         <span>¥79</span>
                         <del>¥129</del>
                     </div>
                     <div class="panel-price">
-                        <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
-                        <a href="#" class="icon-store-up"></a>
+                      <a class="icons-car" href="#" data-toggle="modal" data-target="#myModal">
+                          <img src="./images/index_34.png"/>
+                      </a>
+                      <a class="icons-heart" href="#" data-toggle="modal" data-target="#myModal">
+                          <img src="./images/index_30.png"/>
+                      </a>
                     </div>
                 </section>
             </div>
@@ -183,15 +200,17 @@
                 <h4>小食品</h4>
             </div>
             <div class="panel-main">
-              <div class="panel-body">
+              <div class="panel-body ">
                   <a href="">
                       <img src="./images/pc_23.jpg">
                   </a>
-                  <section>
+                  <section class="flex-box">
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
                       <div class="panel-price">
                           <span>¥79</span>
-                          <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
+                          <a class="icons-car pull-right" href="#" data-toggle="modal" data-target="#myModal">
+                              <img src="./images/index_34.png"/>
+                          </a>
                       </div>
                   </section>
               </div>
@@ -199,11 +218,13 @@
                   <a href="">
                       <img src="./images/pc_25.png">
                   </a>
-                  <section>
+                  <section class="flex-box">
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
                       <div class="panel-price">
                           <span>¥79</span>
-                          <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
+                          <a class="icons-car pull-right" href="#" data-toggle="modal" data-target="#myModal">
+                              <img src="./images/index_34.png"/>
+                          </a>
                       </div>
                   </section>
               </div>
@@ -226,7 +247,7 @@
             <div class="modal-body">
                 <section>
                     <p>规格：</p>
-                    <a href="#" class="btn btn-danger	btn-sm">700g</a>
+                    <a href="#" class="btn btn-danger	btn-xs">700g</a>
                 </section>
                 <section>
                     <label>购买数量：</label>
@@ -236,9 +257,9 @@
                         <button class="btn btn-default">+</button>
                     </div>
                 </section>
-                <div class="btn-wrap">
-                    <button class="btn btn-danger">立即购买</button>
-                    <button class="btn btn-default bg-white">加入购物车</button>
+                <div class="btn-wrap flex-box">
+                    <button class="btn btn-danger ">立即购买</button>
+                    <button class="btn btn-default-outline">加入购物车</button>
                 </div>
             </div>
         </div>

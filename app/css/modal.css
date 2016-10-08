@@ -1,12 +1,4 @@
-.btn-danger{
-  background: #f9660a;
-  border-color: #f9660a;
-}
-.btn-default{
-  border-color: #f5f5f5;
-  background-color: #f5f5f5;
-  border-radius: 0;
-}
+
 .modal{
   background: #fff;
   top: auto;
@@ -43,13 +35,15 @@
   position: relative;
   padding: 0 15px;
 }
+.modal-text{
+  width: 75%;
+}
 .modal-text p{
   font-size: 1.4rem;
   padding-right: 3rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  width: 83%;
 }
 .modal-text span{
   color: #f9660a;
@@ -84,9 +78,6 @@
   line-height: 2rem;
   color: #9a9a9a;
 }
-.btn-wrap{
-  display: flex;
-}
 .modal-body>.btn-wrap .btn{
   flex: 1;
   margin: 1rem 1rem 1rem 0;
@@ -94,7 +85,20 @@
 .modal-body>.btn-wrap .btn:last-child{
   margin-right: 0;
 }
-.bg-white{
-	background: #fff;
+.modal h4{
+  text-align: center;
+  font-weight: 400;
+}
+.modal h4::before{
+  content: none;
+}
+#myModal-delete{
+  width: 85%;
+  height: 13rem;
+  top: 50%;
+  margin: -9rem auto;
   border-radius: 4px;
+}
+.bg-danger{
+  background-color: #fc4e40;
 }

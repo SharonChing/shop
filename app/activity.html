@@ -12,52 +12,56 @@
 
     <link rel="stylesheet" href="./js/vendor/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/global.css">
-    <link rel="stylesheet" type="text/css" href="./css/index.css">
     <link rel="stylesheet" type="text/css" href="./css/template/iconfont.css" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/modal.css">
 
     <script src="./js/vendor/jquery/dist/jquery.js"></script>
 </head>
 
-<body>
+<body class="active">
     <header>
         <a href="#">
-            <i class="g-icon-left"></i>
+            <img src="./images/g-icon-left_03.png"/>
             返回
         </a>
-        <h3>活动专区</h3>
+        <h3>商城首页</h3>
     </header>
     <nav>
         <ul>
-           <li class="selected">
+           <li>
               <a href="#">
+                  <i><img src="./images/personal_34.png"/></i>
                   首页
               </a>
            </li>
            <li>
               <a href="#">
+                  <i><img src="./images/personal_38.png"/></i>
                   分类
               </a>
            </li>
            <li>
               <a href="#">
+                  <i><img src="./images/activity_03.png"/></i>
                   活动专区
               </a>
            </li>
            <li>
-              <a href="#">
+              <a href="#" class="selected">
+                  <i><img src="./images/personal_40.png"/></i>
                   购物车
               </a>
            </li>
            <li>
               <a href="#">
+                  <i><img src="./images/personal_42-1.png"/></i>
                   个人中心
               </a>
            </li>
         </ul>
     </nav>
     <section class="main-content">
-        <section class="panel">
+        <section class="panel no-margin">
             <a href="#"><img src="./images/activity_01.jpg"/></a>
         </section>
         <section class="panel">
@@ -69,7 +73,7 @@
                   <section>
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
                       <div class="panel-price">
-                          <span>¥79
+                          <span class="flex-box">¥79
                               <del>￥129</del>
                           </span>
                           <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
@@ -82,8 +86,8 @@
                   </a>
                   <section>
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
-                      <div class="panel-icon">
-                          <span>¥79
+                      <div class="panel-price">
+                          <span class="flex-box">¥79
                               <del>￥129</del>
                           </span>
                           <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
@@ -99,7 +103,7 @@
                   <section>
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
                       <div class="panel-price">
-                          <span>¥79
+                          <span class="flex-box">¥79
                               <del>￥129</del>
                           </span>
                           <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
@@ -113,7 +117,7 @@
                   <section>
                       <p class="panel-text">稻香村月饼礼盒中秋月饼礼盒700g</p>
                       <div class="panel-price">
-                          <span>¥79
+                          <span class="flex-box">¥79
                               <del>￥129</del>
                           </span>
                           <a href="#" class="icon-shopping-car" data-toggle="modal" data-target="#myModal"></a>
@@ -125,7 +129,7 @@
         <section class="panel">
             <a href="#"><img src="./images/activity_02.jpg"/></a>
         </section>
-        <section class="panel panel-main">
+        <section class="panel panel-main bg-white">
             <a href="#">
                 <img src="./images/pc_23.jpg"/>
             </a>
@@ -136,10 +140,10 @@
                         <del>￥129</del>
                     </span>
                 </p>
-                <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">点击购买</button>
+                <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal">点击购买</button>
             </section>
         </section>
-        <section class="panel panel-main">
+        <section class="panel panel-main bg-white">
             <a href="#">
                 <img src="./images/pc_23.jpg"/>
             </a>
@@ -151,7 +155,7 @@
                     </span>
 
                 </p>
-                <button class="btn btn-danger" data-toggle="modal" data-target="#myModal">点击购买</button>
+                <button class="btn btn-danger btn-xs" data-toggle="modal" data-target="#myModal">点击购买</button>
             </section>
         </section>
     </section>
