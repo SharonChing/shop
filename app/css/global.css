@@ -1432,12 +1432,10 @@ p{
   color: #fff;
   text-align: center;
 }
-.get-ticket .main-content,.get-ticket-success .main-content{
+.get-ticket .main-content{
   height: 100%;
   position: relative;
   overflow: hidden;
-}
-.get-ticket .main-content{
   background: url(./../images/get-coupon_02.jpg) no-repeat;
   background-size: 100%;
 }
@@ -1485,118 +1483,69 @@ p{
     font-weight: 100;
     margin-right: 6px;
 }
-
+.get-ticket-success{
+  background-color: #fbf1e4;
+}
 .get-ticket-success .main-content{
-    background: url(./../images/ticket-success-1.png) no-repeat;
-    background-size: 100%;
-    text-align: center;
+  padding-top: 2rem;
+  height: 100%;
+  background: url(../images/ticket-success.jpg) no-repeat;
+  background-size: 100%;
 }
-.ticket-user{
-    display: flex;
-    align-items: center;
-    margin: 22.5rem auto 0;
-    width: 100%;
-    padding: 0 1.5rem;
-}
-.ticket-message{
-    display: flex;
-    align-items: center;
-    height: 15%;
-    width: 78%;
-    padding: 0;
+.get-ticket-success .ticket-box{
     margin: 0 auto;
-}
-i.user-photo{
-    display: inline-block;
-    overflow: hidden;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-right: 1.2rem;
-}
-.ticket-message span{
-    display: inline-block;
-    flex: 1;
-    background-color: #fff;
-    padding: 6px 1px;
-    border-radius: 5px;
-    margin-right: 1rem;
-}
-.ticket-message span:before{
-    content: "";
-    width: 0;
-    height: 0;
-    display: inline-block;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-bottom: 11px solid #ffffff;
-    margin-left: -12px;
-    padding-top: 0px;
-}
-.get-ticket-success .ticket-success{
-    height: 14.5%;
-    padding-top: 2rem;
-}
-.get-ticket-success .ticket-success>p{
-    color: #fff;
-    width: 120%;
-    margin-left: -10%;
-    font-weight: 100;
-}
-.get-ticket-success .ticket-success>p.color-yellow{
-    margin-top: 20px;
-    color: #fff788;
-}
-.get-ticket-success .ticket-success .btn{
-    background-color: #fff788;
-    width: 120%;
-    margin-left: -10%;
-    margin-top: 1.5rem;
-}
-.ticket{
-    width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 10%;
-    color: #929292;
+    background-color: #ffa422;
+    width: 86%;
+    height: 12.2rem;
+    overflow: hidden;
 }
-.ticket>span{
-    width: 1.5rem;
-    font-size: 1.5rem;
-    line-height: 1.4rem;
-}
-.ticket>section{
-    text-align: center;
-    flex: 1;
-}
-.ticket>section>h3{
-    color: #ffa422;
-    font-weight: 200;
-}
-.color-yellow{
-  color: #fff788;
-}
-.get-ticket-success .panel-title{
-  margin-top: 1rem;
-}
-.get-ticket-success .panel-title h4{
-    color: #a1a1a1;
-} 
-.get-ticket-success .panel-title h4::before,
-.get-ticket-success .panel-title h4::after{
-    width: 10rem;
-}
-.get-ticket-success .other-user{
-  padding: 0 1.5rem 1.5rem;
-  color: #a1a1a1;
-}
-.get-ticket-success .other-user span{
-  color: #000;
-  font-size: 1.4rem;
+.get-ticket-success .ticket{
+  background-color: #fff;
+  padding: 2rem;
+  width: 80%;
   font-weight: 500;
 }
-.get-ticket-success .other-user .flex-box{
-  border-bottom: 1px solid #eaeaea;
-  border-top: 1px solid #eaeaea;
-  padding: 1rem 0;
+.get-ticket-success .ticket section{
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.get-ticket-success .ticket span,
+.get-ticket-success .ticket small{
+  color: #ffa422;
+}
+.get-ticket-success .ticket small{
+    font-size: 1.8rem;
+    padding-top: 0.8rem;
+}
+.ticket-price{
+  display: flex;
+  padding-right: 1rem;
+}
+.ticket-price span{
+  font-size: 3.7rem;
+}
+.ticket>p{
+  color: #5b5b5b;
+}
+.get-ticket-success .ticket-box button{
+    background-color: #ffa422;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+.ticket-btn-box{
+    width: 20%;
+    position: relative;
+    height: 100%;
+    display: flex;
+    padding: 0 1rem;
+}
+.ticket-btn-box img{
+    position: absolute;
+    height: 100%;
+    width: auto;
+    left: -0.3rem;
 }
